@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Kafka's Castle</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="scene">
+    <img src="background.png" id="bg" alt="Kafka's Castle Background" />
+    <div class="overlay clouds"></div>
+    <div class="overlay fog"></div>
+    <div class="window window1"></div>
+    <div class="window window2"></div>
+  </div>
+
+  <div id="content">
+    <h1><span class="gold">Kafka’s Castle</span></h1>
+    <h2>A surreal chat‑based riddle experience</h2>
+
+    <div id="chatbox">
+      <div id="messages"></div>
+      <input
+        id="userInput"
+        type="text"
+        placeholder="Type your reply…"
+        autocomplete="off"
+      />
+    </div>
+
+    <div id="keySection">
+      <div id="keyButton">&#x1F511;</div>
+      <div id="enterText">Enter the Castle</div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
